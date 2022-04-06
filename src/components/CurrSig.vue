@@ -1,7 +1,7 @@
 <template>
 <div>
       <div class="card-body row">
-        <div class="col">
+        <div class="col-4">
           <img class="w-100 d-block" :logo="photo">
         </div>
         <div class="col-8" style="text-align: center;">
