@@ -2,7 +2,7 @@
 <div>
       <div class="card-body row">
         <div class="col-4">
-          <img class="w-100 d-block" :logo="photo">
+          <img class="w-100 d-block" :src="logo">
         </div>
         <div class="col-8" style="text-align: center;">
           <h3>{{sigTitle}}</h3>
