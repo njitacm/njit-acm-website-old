@@ -1,9 +1,10 @@
 <template>
   <div>
     <b-navbar type="light">
-      <b-navbar-brand
-        ><router-link class="nav-link" to="/">Logo</router-link></b-navbar-brand
-      >
+      <b-navbar-brand>
+        <router-link class="nav-link" to="/"><img src="../assets/logos/acm_logo_color.svg" class="svg-icon" />
+        </router-link>
+      </b-navbar-brand>
       <b-navbar-nav class="navbar-nav">
         <li class="nav-item">
           <router-link class="nav-link" to="/sigs">SIGS</router-link>
@@ -15,9 +16,7 @@
           <router-link class="nav-link" to="/eboard">Eboard*</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/partnorg"
-            >Partner Orgs*</router-link
-          >
+          <router-link class="nav-link" to="/partnorg">Partner Orgs*</router-link>
         </li>
         <!--
             <b-nav-item><router-link class="nav-link" to="/sigs">Events*</router-link></b-nav-item>
@@ -59,5 +58,10 @@
 
 .navbar-nav {
   margin-left: auto;
+}
+
+.svg-icon {
+  height: 50px;
+  width: 50px;
 }
 </style>
