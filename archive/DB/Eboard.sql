@@ -18,29 +18,29 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `njithost_acm_website`
+-- Database: "njithost_acm_website"
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `Eboard`
+-- Table structure for table "Eboard"
 --
 
-CREATE TABLE `Eboard` (
-  `Name` varchar(40) NOT NULL,
-  `Role` varchar(40) NOT NULL,
-  `UCID` varchar(40) NOT NULL,
-  `Year` varchar(40) NOT NULL,
-  `Major` varchar(80) NOT NULL,
-  `Term` year(4) NOT NULL
+CREATE TABLE "Eboard" (
+  "Name" varchar(40) NOT NULL,
+  "Role" varchar(40) NOT NULL,
+  "UCID" varchar(40) NOT NULL,
+  "Year" varchar(40) NOT NULL,
+  "Major" varchar(80) NOT NULL,
+  "Term" year(4) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `Eboard`
+-- Dumping data for table "Eboard"
 --
 
-INSERT INTO `Eboard` (`Name`, `Role`, `UCID`, `Year`, `Major`, `Term`) VALUES
+INSERT INTO "Eboard" ("Name", "Role", "UCID", "Year", "Major", "Term") VALUES
 ('Eduardo Preciado', 'President', 'ejp9', 'Senior', 'CS', '2016'),
 ('Theresa Wagner', 'Vice President', 'tlw7', 'Junior', 'IT/CoE', '2016'),
 ('Tariq Khan', 'Treasurer', 'tk97', 'Junior', 'CS', '2016'),
@@ -100,7 +100,15 @@ INSERT INTO `Eboard` (`Name`, `Role`, `UCID`, `Year`, `Major`, `Term`) VALUES
 ('Kapila Mane', 'Graphic Designer', 'km776', 'Freshman', 'HCI', '2023'),
 ('Isaac Guerrero', 'Secretary', 'iag8', 'Senior', 'IT', '2023'),
 ('Ryan Pupia', 'SIG Master', 'rp972', 'Sophomore', 'Data Sci', '2023'),
-('Jayden Alexis', 'Public Relations', 'jma88', 'Freshman', 'IT', '2023');
+('Jayden Alexis', 'Public Relations', 'jma88', 'Freshman', 'IT', '2023'),
+('Will Simkins', 'President', 'wss9', 'Senior', 'CS/Math', '2024'),
+('Anthony Siracusa', 'Vice-President', 'aws4', 'Senior', 'CS/Math', '2024'),
+('Logan Kriebal ', 'Treasurer', 'lk283', 'Sophomore', 'CS', '2024'),
+('Ananya Tyagi', 'Secretary', 'at899', 'Freshman', 'CS', '2024'),
+('Priya Patel', 'Event Master', 'pp893', 'Freshman', 'CS', '2024'),
+('Abdullah Imran', 'Webmaster', 'ami8', 'Freshman', 'CS/Math', '2024'),
+('Darren Bonifacio', 'Public Relations', 'dab97', 'Freshman', 'CS', '2024'),
+('Kapila Mane', 'Graphic Designer', 'km776', 'Sophomore', 'HCI', '2024');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
